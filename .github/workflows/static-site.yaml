@@ -2,9 +2,9 @@ name: CI/CD for Static Site with GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ deploy ]
   pull_request:
-    branches: [ main ]
+    branches: [ deploy ]
 
 jobs:
   stage-1-checkout:
